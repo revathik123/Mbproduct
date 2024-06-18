@@ -1,9 +1,0 @@
-package com.example.Controller;
-@RestCotroller
-@RequestMapping("/")
-public class Controllerclass {
-@GetMapping("/hello")
-public void home() {
-	return "hello";
-}
-}
