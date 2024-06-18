@@ -1,0 +1,16 @@
+1718088014408	Move compilation unit
+1718088946437	Move compilation unit
+1718096479095	Delete element
+1718096482284	Delete element
+1718096500590	Move compilation unit
+1718103384911	Rename package 'com.example.Controller'
+1718103491830	Rename package 'com.example.Userserviceimpl'
+1718103529594	Rename package 'com.example.Userservice'
+1718103552192	Rename package 'com.example.Userrepository'
+1718103569384	Rename package 'com.example.securityConfiguration'
+1718103591351	Rename package 'com.example.Entity'
+1718103615238	Rename package 'com.example.dto'
+1718103639741	Rename package 'com.example.demo'
+1718103671088	Rename type 'UserDto'
+1718104704524	Copy compilation unit
+1718268497765	Copy compilation unit

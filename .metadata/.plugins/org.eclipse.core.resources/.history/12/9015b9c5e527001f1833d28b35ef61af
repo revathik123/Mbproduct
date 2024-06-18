@@ -1,0 +1,9 @@
+package com.mbproduct.Userservice;
+
+import com.mbproduct.Entity.UserEntity;
+import com.mbproduct.dto.Registration;
+
+public interface UserService {
+	UserEntity saveusr(Registration user);
+
+}

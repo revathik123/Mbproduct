@@ -1,0 +1,33 @@
+package com.mbproduct.Util;
+
+@Component
+public class EmailUtils {
+
+	@Autowired
+	private JavaMailSender javaMailSender;
+    
+    public boolean sendmail(String to,String subject,String body) {
+    	
+    	Boolean isSent=false;
+    
+  try {
+    	MimeMessage mimemessage = javaMailSender.createMimeMessage();
+    	MimeMessageHelper helper = new MimeMessageHelper(mimemessage,true);
+    	
+    	
+    	helper.setTo(to);
+    	helper.setSubject(subject);
+    	helper.setText(body,true);
+    	
+    	
+    	javaMailSender.send(mimemessage);
+    		
+    	isSent=true;
+    		
+	}catch(Exception er) {
+		er.printStackTrace();
+	}
+		return isSent;
+		}
+
+   }

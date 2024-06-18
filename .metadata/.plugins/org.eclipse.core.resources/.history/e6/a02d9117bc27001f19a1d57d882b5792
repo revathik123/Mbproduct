@@ -1,0 +1,5 @@
+package com.example.Userrepository;
+
+public interface UserRpository {
+
+}
