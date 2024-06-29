@@ -1,9 +1,0 @@
-package com.mbproduct.Userservice;
-
-import com.mbproduct.Entity.UserEntity;
-import com.mbproduct.dto.UserDto;
-
-public interface UserService {
-	UserEntity saveusr(UserDto user);
-
-}
